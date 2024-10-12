@@ -1,0 +1,197 @@
+[
+    {
+        "id" : "__1" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant Vapo",
+        "alt" : "Désodorisant Vapo",
+        "photo" : "/src/assets/products/desodorisant/deso-vapo.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "1L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    },
+    {
+        "id" : "__2" , 
+        "categorie" : "desodorisant" , 
+        "name" : "Désodorisant",
+        "alt" : "Désodorisant",
+        "photo" : "/src/assets/products/desodorisant/deso.jpg" ,
+        "gout"  : {
+            "src-photo" : "",
+            "alt-photo" : "",
+            "gut-name" : ""
+        } ,
+        "quantity" : "2L" 
+    }
+]

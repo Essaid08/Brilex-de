@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .custom-li-nav {
+    @apply mr-10 py-2 cursor-pointer relative last:mr-6;
+  }
+
+  .anchor-link-nav {
+    @apply py-[10.8px] text-[#222326] text-xl lg:text-2xl xl:text-3xl font-semibold font-sans relative two;
+  }
+
+  .span-left-hover {
+    @apply absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-[#3F72AF];
+  }
+
+  .span-right-hover {
+    @apply absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-[#3F72AF];
+  }
+  .li-nav-mobile {
+    @apply text-3xl;
+  }
+
+  .custom-tab {
+    @apply  bg-[#112D4E] text-[#F9F7F7] py-8 text-4xl max-lg:text-2xl
+  }
+  
+  .scroll-effect {
+    animation: 1s ease-in both;
+    animation-timeline: view();
+    animation-range: entry;
+    animation-name: blureFadeIn;
+  }
+  .scroll-effect-reverse {
+    animation: 1s ease-in both;
+    animation-timeline: view();
+    animation-range: entry;
+    animation-name:blureFadeInReverse ;
+  }
+  .scroll-effect-scale {
+    animation: 100ms ease-in both;
+    transform-origin: top left;
+    animation-timeline: view();
+    animation-range: entry;
+    animation-name:blureFadeInScale ;
+  }
+}
+
+@keyframes blureFadeInScale {
+  0% {
+    clip-path: inset(50%);
+    opacity: 0.5;
+    filter: blur(6px);
+  }
+  100% {
+    clip-path: inset(0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+@keyframes blureFadeInReverse {
+  0% {
+    transform:translateX(20%);
+    opacity: 0.5;
+    filter: blur(10px);
+  }
+  100% {
+    transform:translateX(0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+@keyframes blureFadeIn {
+  0% {
+    transform:translateX(-10%);
+    opacity: 0.5;
+    filter: blur(5px);
+  }
+  100% {
+    transform:translateX(0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.two:hover span {
+  width: 50%;
+}
+
+.my-background {
+  position: relative;
+  background-image: url("/src/assets/ca-brill.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: fit-content;
+}
+.location-bg {
+  position: relative;
+  background-image: url("/src/assets/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: fit-content;
+}
+
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(17, 45, 78, 0.86);
+  z-index: 1;
+}
