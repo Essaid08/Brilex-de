@@ -1,6 +1,6 @@
 import brilexAd from "../assets/brilex.png"
 import { useForm } from "react-hook-form";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/Button";
 import {
     Form,
     FormControl,
