@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/nv-logo.jpg"
+import logo from "../../assets/nv-logo.png"
 import { useContext, useState } from "react";
 import DropDownMenu from "./DropDownMenu";
 import MobileMenu from "./MobileMenu";
@@ -25,7 +25,7 @@ function Nav() {
     return (
         <header className="w-full bg-[#DBE2EF] mx-auto flex justify-center px-16 max-md:px-6 max-w-[1580px]">
             <nav className="flex justify-between items-center w-full py-3 ">
-                <div className="h-16 w-16 rounded-full cursor-pointer">
+                <div className="h-16 w-16 rounded-full cursor-pointer max-md:h-14 max-md:w-14">
                     <Link to='/'>
                         <img
                             className="rounded-full"

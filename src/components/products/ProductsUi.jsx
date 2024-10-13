@@ -24,7 +24,8 @@ const ProductsUi = () => {
                 <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-auto gap-y-8 max-lg:mb-28 ">
                     <TabsTrigger value="détergeant">
                         <Button
-                            onClick={() => {setProdyctsType('détergeant')}}
+                            className='text-[#112D4E]'
+                            onClick={() => { setProdyctsType('détergeant') }}
                             size='lg'
                             variant="outline">
                             Détergeant
@@ -32,6 +33,7 @@ const ProductsUi = () => {
                     </TabsTrigger>
                     <TabsTrigger value="insecticide">
                         <Button
+                            className='text-[#112D4E]'
                             onClick={() => setProdyctsType('insecticide')}
                             size="lg"
                             variant="outline">
@@ -40,6 +42,7 @@ const ProductsUi = () => {
                     </TabsTrigger>
                     <TabsTrigger value="désodorisant">
                         <Button
+                            className='text-[#112D4E]'
                             onClick={() => setProdyctsType('désodorisant')}
                             size="lg"
                             variant="outline">
@@ -48,6 +51,7 @@ const ProductsUi = () => {
                     </TabsTrigger>
                     <TabsTrigger value="all">
                         <Button
+                            className='text-[#112D4E]'
                             onClick={() => setProdyctsType('all')}
                             size="lg"
                             variant="outline">

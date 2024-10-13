@@ -31,7 +31,7 @@ const BrilexDetails = () => {
             <div className='grid gap-11  grid-cols-1 md:grid-cols-2 w-full py-5  bg-[#DBE2EF]  flex-col  px-16 max-md:px-8 max-w-[1580px]'>
                 <div className='flex flex-col items-center'>
                     <FaLocationDot size={42} color="#112D4E" />
-                    <h2 className="text-lg md:text-xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF] dark:text-gray-200">
+                    <h2 className="text-lg md:text-xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF]">
                         <AlertDialog className="">
                             <AlertDialogTrigger>49, Zone de dépôt El Haddada, Jijel, Algeria </AlertDialogTrigger>
                             <AlertDialogContent className="bg-[#F9F7F7] text-[#112D4E]">
@@ -55,7 +55,7 @@ const BrilexDetails = () => {
                     <h2
                         onClick={() => handleHraderCopy("header-num")}
                         id="header-num"
-                        className="text-lg md:text-xl cursor-pointer text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF] dark:text-gray-200">
+                        className="text-lg md:text-xl cursor-pointer text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF]">
                         034 47 91 60
                     </h2>
                 </div>
@@ -64,13 +64,13 @@ const BrilexDetails = () => {
                     <h2
                         onClick={() => handleHraderCopy("header-mail")}
                         id="header-mail"
-                        className="text-lg md:text-xl text-[#112D4E] pl-2 my-2 border-l-4 cursor-pointer  font-sans font-bold border-[#3F72AF] dark:text-gray-200">
+                        className="text-lg md:text-xl text-[#112D4E] pl-2 my-2 border-l-4 cursor-pointer  font-sans font-bold border-[#3F72AF]">
                         dg@brilex-dz.com
                     </h2>
                 </div>
                 <div className='flex flex-col items-center'>
                     <TbClockHour4Filled size={42} color="#112D4E" />
-                    <h2 className="text-lg md:text-xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF] dark:text-gray-200">
+                    <h2 className="text-lg md:text-xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF]">
                         <AlertDialog className="">
                             <AlertDialogTrigger>Nos Horaires </AlertDialogTrigger>
                             <AlertDialogContent className="bg-[#F9F7F7] text-[#112D4E]">

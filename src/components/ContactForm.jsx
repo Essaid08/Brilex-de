@@ -1,4 +1,4 @@
-import brilexAd from "../assets/brilex.png"
+import brilexAd from "../assets/brilex-sec.png"
 import { useForm } from "react-hook-form";
 import { Button } from "./ui/Button";
 import {
@@ -56,7 +56,7 @@ export default function ContactForm() {
                 <div className='w-[90%] max-md:w-full'>
                     <Form {...form} >
                         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-                            <div className="flex w-full justify-between items-center max-md:flex-col max-md:gap-4">
+                            <div className="flex w-full justify-between items-center max-md:flex-col text-[#112D4E] max-md:gap-4">
                                 <FormField
                                     control={form.control}
                                     name="username"
@@ -92,7 +92,7 @@ export default function ContactForm() {
                                     )}
                                 />
                             </div>
-                            <div className="flex w-full justify-between max-md:flex-col max-md:gap-4">
+                            <div className="flex w-full justify-between max-md:flex-col  text-[#112D4E]max-md:gap-4">
                                 <FormField
                                     control={form.control}
                                     name="wilaya"
@@ -156,7 +156,7 @@ export default function ContactForm() {
                                     )}
                                 />
                             </div>
-                            <div>
+                            <div className="text-[#112D4E]">
                                 <FormField
                                     control={form.control}
                                     name="Votre message"

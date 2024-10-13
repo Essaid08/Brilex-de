@@ -30,7 +30,7 @@ const Acceuil = () => {
                     muted
                     src={mainVideo}
                     playsInline
-                    poster="/src/assets/poster.jpg"
+                    poster="/src/assets/poster.png"
                 />
                 {/*
                     <img
@@ -56,7 +56,7 @@ const Acceuil = () => {
                 <div className='grid gap-11 grid-cols-1 md:grid-cols-2 w-full'>
                     <div className='flex flex-col items-center'>
                         <MdOutlineHighQuality size={42} color="#112D4E" />
-                        <h2 className="text-xl md:text-2xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF] dark:text-gray-200">
+                        <h2 className="text-xl md:text-2xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF]">
                             Qualité
                         </h2>
                         <p className='text-center text-[14px] text-[#112D4E] max-w-[45ch]'>
@@ -66,7 +66,7 @@ const Acceuil = () => {
                     </div>
                     <div className='flex flex-col items-center'>
                         <MdOutlineProductionQuantityLimits size={42} color="#112D4E" />
-                        <h2 className="text-xl md:text-2xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF] dark:text-gray-200">
+                        <h2 className="text-xl md:text-2xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF]">
                             Quantité
                         </h2>
                         <p className='text-center text-[14px] text-[#112D4E] max-w-[45ch]'>
@@ -75,7 +75,7 @@ const Acceuil = () => {
                     </div>
                     <div className='flex flex-col items-center'>
                         <TbTruckDelivery size={42} color="#112D4E" />
-                        <h2 className="text-xl md:text-2xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF] dark:text-gray-200">
+                        <h2 className="text-xl md:text-2xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF]">
                             Distribution
                         </h2>
                         <p className='text-center text-[14px] text-[#112D4E] max-w-[45ch]'>
@@ -84,7 +84,7 @@ const Acceuil = () => {
                     </div>
                     <div className='flex flex-col items-center'>
                         <MdOutlinePriceChange size={42} color="#112D4E" />
-                        <h2 className="text-xl md:text-2xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF] dark:text-gray-200">
+                        <h2 className="text-xl md:text-2xl text-[#112D4E] pl-2 my-2 border-l-4  font-sans font-bold border-[#3F72AF]">
                             Prix
                         </h2>
                         <p className='text-center text-[14px] text-[#112D4E] max-w-[45ch]'>

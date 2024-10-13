@@ -39,7 +39,7 @@ const HomeProducts = () => {
                     <Card className="relative group overflow-hidden rounded-2xl hover:scale-105 duration-200">
                         <CardContent className="p-0 h-full">
                             <img
-                                src="/src/assets/products/Gamme-insecticide.jpg"
+                                src="/src/assets/products/Gamme-insecticide.png"
                                 alt="Product"
                                 className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-50"
                             />
@@ -64,7 +64,7 @@ const HomeProducts = () => {
                     <Card className="relative group overflow-hidden rounded-2xl hover:scale-105 duration-200">
                         <CardContent className="p-0 h-full">
                             <img
-                                src="/src/assets/products/Gamme-désodorisant.jpg"
+                                src="/src/assets/products/Gamme-désodorisant.png"
                                 alt="Product"
                                 className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-50"
                             />
@@ -89,7 +89,7 @@ const HomeProducts = () => {
                     <Card className="relative group overflow-hidden rounded-2xl hover:scale-105 duration-200">
                         <CardContent className="p-0 h-full">
                             <img
-                                src="/src/assets/products/Gamme-détérgents..jpg"
+                                src="/src/assets/products/Gamme-détérgents..png"
                                 alt="Product"
                                 className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-50"
                             />
