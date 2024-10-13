@@ -5,6 +5,7 @@ import ScrollBtn from "../components/ui/ScrollBtn";
 import { useEffect, useRef, useState } from "react";
 import aboutVideo from '../assets/videos/AQNh7XnFHMOQZmObVLxkdM6H_TtJfX-uYCEfcnaxSWPQDc9R04JjOMRkXen1hhs1vkurBhInxbay6cjB0l6Z61Fe.mp4';
 import { FaVolumeMute, FaVolumeUp } from "react-icons/fa";
+import bgBrilex from '../assets/aboutBg.png'
 
 const About = () => {
     const videoRef = useRef(null);
@@ -79,6 +80,9 @@ const About = () => {
                     <p className="max-md:text-center text-[#6c757d] text-xl max-sm:text-lg mt-6">
                     Créer, manufacturer, distribuer des produits nettoyants sécuritaires, efficaces et à prix compétitifs pour les marchés résidentiel, industriel et commercial. » Depuis plus de 10 ans, la fabrication de détergents a offert un large éventail de produits en Algérie. Nous nous efforçons de maintenir les normes les plus élevées tout en dépassant les attentes des clients à tous les niveaux. Non seulement nous honorons les engagements, mais sommes connus pour le respect des délais difficiles tout en offrant rien d'autre que le meilleur. Nous visons à créer une relation client réactif qui nous permet de répondre et même dépasser les objectifs de chacun de nos projets. Garden Clean MESTAR est bien connu pour son innovation et sa franche collaboration avec nos clients, les sous-traitants, consultants ainsi que des fournisseurs ; nous avons été en mesure de fournir le niveau plus élevé de services. Nous sommes en constante évolution. Quelles sont nos missions et valeurs ? « La Société SNC Garden Clean MESTAR a pour mission de transmettre sa passion, sa culture et son expertise de la qualité des produits haut de gamme, à travers des solutions innovantes, créatrices de valeur, originales, raffinées et symbolisant notre excellence technique. » Une culture d'entreprise forte qui s'articule autour de 9 valeurs fondamentales, partagées par l'ensemble des collaborateurs du groupe : • La culture de la différence • La recherche de l’excellence • L’esprit pionnier. • La passion du design et de la création • La solidarité et l’esprit d’équipe • À un environnement sans fragrance et sans colorant. • À une approche afin de réduire l’empreinte écologique. • À la des ingrédients.
                     </p>
+                </div>
+                <div className="w-full mt-16">
+                    <img src={bgBrilex} alt="backrounf" />
                 </div>
             </div>
             <BrilexDetails />

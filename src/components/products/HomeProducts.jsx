@@ -14,8 +14,8 @@ import insetcideProuduits from "../../data/products/insecticide.json"
 import { useContext } from "react"
 import { ProductTypeContext } from "../TypeProvider"
 import { Link } from "react-router-dom"
-import Gammedésodorisant from "../../assets/products/Gamme-désodorisant.png"
-import Gammedétérgents from "../../assets/products/Gamme-détérgents..png"
+import Gammedésodorisant from "../../assets/products/Gamme-desodorisant.png"
+import Gammedétérgents from "../../assets/products/Gamme-detergents.png"
 import Gammeinsecticide from "../../assets/products/Gamme-insecticide.png"
 
 

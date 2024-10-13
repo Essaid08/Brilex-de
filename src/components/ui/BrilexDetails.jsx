@@ -13,6 +13,7 @@ import { MdAttachEmail } from "react-icons/md";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import locationBrilex from '../../assets/brilex-ouzin.png'
 
 const BrilexDetails = () => {
 
@@ -40,7 +41,7 @@ const BrilexDetails = () => {
                                         <FaLocationDot size={32} color="#112D4E" />49, Zone de dépôt El Haddada, Jijel, Algeria
                                     </AlertDialogTitle>
                                     <AlertDialogDescription>
-                                        <img src="/src/assets/locationGoogle.PNG" alt="" />
+                                        <img src={locationBrilex} alt="" />
                                     </AlertDialogDescription>
                                 </AlertDialogHeader>
                                 <AlertDialogFooter>

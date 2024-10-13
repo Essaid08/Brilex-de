@@ -1,4 +1,4 @@
-
+import locationbrilex from '../../assets/brilex-ouzin.png'
 
 const Location = () => {
     return (
@@ -15,7 +15,7 @@ const Location = () => {
                 </div>
                 <img
                     className="h-[480px] max-md:h-80"
-                    src="/src/assets/brilex-ouzin.png"
+                    src={locationbrilex}
                     alt="BrilexLocation"
                 />
                 {/*<img
