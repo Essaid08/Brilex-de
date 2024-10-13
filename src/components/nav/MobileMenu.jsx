@@ -64,7 +64,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
                 </div>
 
                 {/* Navigation list */}
-                <ul className="space-y-4 px-6  border-gray-200 flex flex-col gap-8">
+                <ul className="space-y-4 px-6  border-gray-200 flex flex-col gap-6">
                     {/* Charik menu item */}
                     <li className="li-nav-mobile">
                         <a href="#" className="block text-2xl font-light hover:text-[#3F72AF]">

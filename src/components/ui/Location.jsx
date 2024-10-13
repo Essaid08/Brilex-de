@@ -1,5 +1,4 @@
 import locationbrilex from '../../assets/brilex-ouzin.png'
-
 const Location = () => {
     return (
         <section className="location-bg w-full py-14 flex justify-center  px-16 max-md:px-6 ">

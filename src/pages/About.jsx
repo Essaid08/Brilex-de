@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import BrilexDetails from "../components/ui/BrilexDetails";
 import ScrollBtn from "../components/ui/ScrollBtn";
 import { useEffect, useRef, useState } from "react";
-import aboutVideo from '../assets/videos/AQNh7XnFHMOQZmObVLxkdM6H_TtJfX-uYCEfcnaxSWPQDc9R04JjOMRkXen1hhs1vkurBhInxbay6cjB0l6Z61Fe.mp4';
+import aboutVideo from '../assets/videos/avoutvideo.mp4';
 import { FaVolumeMute, FaVolumeUp } from "react-icons/fa";
 import bgBrilex from '../assets/aboutBg.png'
 
@@ -85,7 +85,9 @@ const About = () => {
                     <img src={bgBrilex} alt="backrounf" />
                 </div>
             </div>
-            <BrilexDetails />
+            <div className="py-20">
+                <BrilexDetails />
+            </div>
             <Footer />
             <ScrollBtn />
         </section>

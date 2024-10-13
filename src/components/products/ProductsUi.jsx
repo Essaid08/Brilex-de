@@ -1,9 +1,9 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/Tabs"
 import { Button } from "../ui/Button"
 import ProductCategorie from "../products/ProductCategorie"
-import desodorisantProuduits from "../../data/products/desodorisant.json"
-import detergeantProuduits from "../../data/products/detergeant.json"
-import insetcideProuduits from "../../data/products/insecticide.json"
+import desodorisantProuduits from "../../data/products/desodorisant"
+import detergeantProuduits from "../../data/products/detergeant"
+import insetcideProuduits from "../../data/products/insecticide"
 import { ProductTypeContext } from "../TypeProvider"
 import { useContext, useEffect } from "react"
 

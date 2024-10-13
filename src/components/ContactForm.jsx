@@ -188,7 +188,6 @@ export default function ContactForm() {
                     <img src={brilexAd} alt="brilexAd" />
                 </div>
             </div>
-            <BrilexDetails/>
         </section>
     );
 }

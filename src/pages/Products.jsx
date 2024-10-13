@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import BrilexDetails from "../components/ui/BrilexDetails";
 import ScrollBtn from "../components/ui/ScrollBtn";
 import ProductsUi from "../components/products/ProductsUi";
+import ProductPoster from "../components/products/ProductPoster";
 
 const Products = () => {
     return (
@@ -12,6 +13,7 @@ const Products = () => {
             <div className="py-20">
                 <BrilexDetails />
             </div>
+            <ProductPoster/>
             <Footer />
             <ScrollBtn />
         </section>

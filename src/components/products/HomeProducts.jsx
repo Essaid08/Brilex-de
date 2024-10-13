@@ -8,9 +8,9 @@ import {
     CarouselPrevious,
 } from "../ui/Carousel"
 import Autoplay from "embla-carousel-autoplay"
-import desodorisantProuduits from "../../data/products/desodorisant.json"
-import detergeantProuduits from "../../data/products/detergeant.json"
-import insetcideProuduits from "../../data/products/insecticide.json"
+import desodorisantProuduits from "../../data/products/desodorisant"
+import detergeantProuduits from "../../data/products/detergeant"
+import insetcideProuduits from "../../data/products/insecticide"
 import { useContext } from "react"
 import { ProductTypeContext } from "../TypeProvider"
 import { Link } from "react-router-dom"
