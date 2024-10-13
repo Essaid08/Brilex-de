@@ -14,13 +14,16 @@ import insetcideProuduits from "../../data/products/insecticide.json"
 import { useContext } from "react"
 import { ProductTypeContext } from "../TypeProvider"
 import { Link } from "react-router-dom"
+import Gammedésodorisant from "../../assets/products/Gamme-désodorisant.png"
+import Gammedétérgents from "../../assets/products/Gamme-détérgents..png"
+import Gammeinsecticide from "../../assets/products/Gamme-insecticide.png"
 
 
 const allProducts = [...insetcideProuduits, ...desodorisantProuduits, ...detergeantProuduits]
 
 const HomeProducts = () => {
 
-    const { prodyctsType, setProdyctsType } = useContext(ProductTypeContext)
+    const { setProdyctsType } = useContext(ProductTypeContext)
 
     return (
         <section className="my-background  flex flex-col items-center px-16 ">
@@ -39,7 +42,7 @@ const HomeProducts = () => {
                     <Card className="relative group overflow-hidden rounded-2xl hover:scale-105 duration-200">
                         <CardContent className="p-0 h-full">
                             <img
-                                src="/src/assets/products/Gamme-insecticide.png"
+                                src={Gammeinsecticide}
                                 alt="Product"
                                 className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-50"
                             />
@@ -64,7 +67,7 @@ const HomeProducts = () => {
                     <Card className="relative group overflow-hidden rounded-2xl hover:scale-105 duration-200">
                         <CardContent className="p-0 h-full">
                             <img
-                                src="/src/assets/products/Gamme-désodorisant.png"
+                                src={Gammedésodorisant}
                                 alt="Product"
                                 className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-50"
                             />
@@ -89,7 +92,7 @@ const HomeProducts = () => {
                     <Card className="relative group overflow-hidden rounded-2xl hover:scale-105 duration-200">
                         <CardContent className="p-0 h-full">
                             <img
-                                src="/src/assets/products/Gamme-détérgents..png"
+                                src={Gammedétérgents}
                                 alt="Product"
                                 className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-50"
                             />

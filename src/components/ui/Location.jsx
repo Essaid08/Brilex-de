@@ -15,7 +15,7 @@ const Location = () => {
                 </div>
                 <img
                     className="h-[480px] max-md:h-80"
-                    src="/src/assets/locationGoogle.PNG"
+                    src="/src/assets/brilex-ouzin.png"
                     alt="BrilexLocation"
                 />
                 {/*<img
